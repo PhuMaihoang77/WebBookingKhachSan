@@ -1,0 +1,260 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General Layout */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+
+
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 200px 200px;
+    background-color: #f4f4f4;
+    background-image: url('images/nen.jpg'); /* Replace with your image */
+    background-size: cover;
+    
+}
+
+.hero h1 {
+    font-size: 40px;
+    margin: 100px 700px 10px 30px;
+    padding-top:10px;
+    color: white;
+    
+}
+
+
+
+
+/* Hotel Listings */
+.hotel-listings {
+    padding: 20px;
+}
+
+.hotel-listings h2 {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 30px;
+
+}
+
+.hotel {
+    display: inline-block;
+    width: 250px;
+    margin: 45px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    text-align: center;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.hotel img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.hotel h3 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.hotel p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.hotel button {
+    padding: 10px 15px;
+    font-size: 14px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.hotel button:hover {
+    background-color: #218838;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    margin-top: 40px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header, .hotel-listings {
+        padding: 10px;
+    }
+    .hero h1 {
+        font-size: 28px;
+    }
+    .hotel {
+        width: 100%;
+        margin: 10px 0;
+    }
+}
+
+
+
+/*header*/
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    width: auto;
+}
+
+nav,header a {
+    text-decoration: none;
+}
+
+.background {
+    min-height: 100vh;
+    background: url('../img/Carousel2.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.slider-text {
+    text-align: center;
+    padding-top: 300px;
+}
+
+.slider-text .sli-title {
+    font-size: 70px;
+    color: #fffc9c;
+    font-style: italic;
+}
+
+.slider-text .sli-content {
+    font-size: 80px;
+    font-style: italic;
+    font-family: 'Allura';
+    line-height: 20px;
+    position: relative;
+    color: #c4fb72;
+    text-shadow: 2px 2px 5px #877a02;
+}
+
+.sli-btn {
+    font-size: 3em;
+    padding-top: 50px;
+
+}
+
+ul {
+    list-style: none;
+    margin-left: 0;
+    padding-bottom: 0;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1.3rem 10%;
+    background: rgba(0, 0, 0, .2);
+    backdrop-filter: blur(50px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 999;
+}
+
+.logo {
+    font-size: 2rem;
+    color: #fff;
+    font-weight: 700;
+}
+
+.navbars a {
+    font-size: 1.05rem;
+    color: #fff;
+    font-weight: 500;
+    margin-left: 20px;
+}
+
+.navbars svg {
+    fill: #fff;
+}
+
+.icon {
+    margin: 0 0 5px 7px;
+}
+
+
+
+.navbars a:hover {
+    color: #c0a600;
+}
+
+.icons {
+    font-size: 2rem;
+    color: #fff;
+    cursor: pointer;
+    display: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background: #ffffff;
+    min-width: 160px;
+    border-radius: 15%;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #000000;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background: rgba(0, 0, 0, .5);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.menu {
+    text-align: center;
+    margin-top: 3%;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+}
+
+.menu img {
+    border-radius: 50%;
+}
